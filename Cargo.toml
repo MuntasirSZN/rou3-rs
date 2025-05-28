@@ -1,0 +1,54 @@
+[package]
+name = "rou3"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ahash = "0.8.12"
+indexmap = "2.9.0"
+parking_lot = "0.12.4"
+thiserror = "2.0.12"
+
+[dev-dependencies]
+# Test runner
+cargo-nextest = "0.9.96"
+# Wall clock time based benchmarking
+criterion = "0.6.0"
+# More sophisticated benchmarking
+iai-callgrind = "0.14.1"
+# Tracing in tests etc.
+tracing = "0.1.41"
+tracing-subscriber = { version = "0.3.19", features = ["env-filter", "fmt"] }
+
+# Router comparisons
+actix-router = "0.5.3"
+gonzales = "0.0.3-beta"
+matchit = "0.8.6"
+path-tree = "0.8.3"
+regex = "1.11.1"
+route-recognizer = "0.3.1"
+routefinder = "0.5.4"
+wayfind = "0.8.1"
+
+[[bench]]
+name = "benchmarks"
+harness = false
+
+[[bench]]
+name = "iai_benchmarks"
+harness = false
+
+[[bench]]
+name = "router_comparison"
+harness = false
+
+[profile.release]
+lto = "fat" 
+codegen-units = 1
+panic = "abort"
+strip = "debuginfo"
+
+[profile.bench]
+inherits = "release"
+debug = true
+strip = false
