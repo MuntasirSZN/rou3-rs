@@ -2,6 +2,12 @@
 name = "rou3"
 version = "0.1.0"
 edition = "2024"
+authors = ["MuntasirSZN <muntasir.joypurhat@gmail.com>"]
+description = "🌳 Lightweight and fast rou(ter) for Rust"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/MuntasirSZN/rou3-rs"
+keywords = ["url", "router"]
 
 [dependencies]
 ahash = "0.8.12"
