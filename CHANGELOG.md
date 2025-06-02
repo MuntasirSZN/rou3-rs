@@ -1,10 +1,29 @@
-# Changelog
+<a name="unreleased"></a>
+## [Unreleased]
 
-## 0.1.0 (2025-06-02)
+
+<a name="v0.1.0"></a>
+## v0.1.0 - 2025-06-02
+### 🎨 Chores
+- fix docs
+- fix cargo.toml
+- add codeowners
+- add important files
+- **deps:** bump actions/stale from 5 to 9
+- **deps:** bump Swatinem/rust-cache from 1 to 2
+- **deps:** bump actions/checkout from 3 to 4
+- **main:** release 0.1.0
+
+### 🐞 Bug Fixes
+- codecov again
+- readme again
+- readme
+
+### Pull Requests
+- Merge pull request [#6](https://github.com/MuntasirSZN/rou3-rs/issues/6) from MuntasirSZN/dependabot/github_actions/actions/stale-9
+- Merge pull request [#4](https://github.com/MuntasirSZN/rou3-rs/issues/4) from MuntasirSZN/dependabot/github_actions/actions/checkout-4
+- Merge pull request [#5](https://github.com/MuntasirSZN/rou3-rs/issues/5) from MuntasirSZN/dependabot/github_actions/Swatinem/rust-cache-2
+- Merge pull request [#3](https://github.com/MuntasirSZN/rou3-rs/issues/3) from MuntasirSZN/release-please--branches--main--components--rou3
 
 
-### Bug Fixes
-
-* codecov again ([91970f1](https://github.com/MuntasirSZN/rou3-rs/commit/91970f1ae509d9611d09f7aae6dc3614303a0c84))
-* readme ([de8c521](https://github.com/MuntasirSZN/rou3-rs/commit/de8c52107a3389c3081c4baa3819ca4861cc6410))
-* readme again ([ebe501f](https://github.com/MuntasirSZN/rou3-rs/commit/ebe501f6786cecca0d5c795f1d0c67e6f4d49f3b))
+[Unreleased]: https://github.com/MuntasirSZN/rou3-rs/compare/v0.1.0...HEAD
