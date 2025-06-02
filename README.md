@@ -33,7 +33,7 @@ Add `rou3-rs` to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-rou3 = "1.0.0"
+rou3 = "0.1.0"
 ```
 
 ## Usage
