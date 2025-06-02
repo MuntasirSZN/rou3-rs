@@ -5,7 +5,7 @@
 [![Crates.io](https://img.shields.io/crates/v/rou3.svg)](https://crates.io/crates/rou3)
 [![Docs.rs](https://docs.rs/rou3/badge.svg)](https://docs.rs/rou3)
 [![Build Status](https://img.shields.io/github/actions/workflow/status/MuntasirSZN/rou3-rs/test.yml?branch=main)](https://github.com/MuntasirSZN/rou3-rs/actions)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 `rou3-rs` provides a high-performance routing solution for Rust applications, drawing inspiration from the design principles of `rou3-js`. It uses a trie-based structure with efficient hash map lookups for dynamic path segments and an optimized map for purely static routes.
 
