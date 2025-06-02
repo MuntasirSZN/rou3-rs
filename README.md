@@ -138,5 +138,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgements
 
 - The design and API are heavily inspired by [h3js/rou3](https://github.com/h3js/rou3).
-
-3. **Build Status Badge:** The URL for the build status badge assumes you're using GitHub Actions with a workflow file named `rust.yml` on the `main` branch. Adjust if necessary.
