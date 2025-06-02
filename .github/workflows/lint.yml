@@ -1,0 +1,50 @@
+name: ✅ Lint Code
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches:
+       - main
+  schedule:
+    - cron: '19 4 * * 2'
+  workflow_call:
+    
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    permissions:
+      security-events: write
+    steps:
+      # Checkout the repository
+      - name: 🛠️ Checkout code
+        uses: actions/checkout@v4
+
+      # Set up Rust toolchain
+      - name: 🦀 Set up Rust toolchain
+        uses: actions-rs/toolchain@v1
+        with:
+          profile: minimal
+          toolchain: stable
+          components: clippy, rustfmt
+          override: true
+
+      # Cache Rust dependencies
+      - name: 📦 Cache Rust dependencies
+        uses: Swatinem/rust-cache@v1
+
+      # Install clippy-sarif and sarif-fmt
+      - name: ⬇️ Install clippy-sarif and sarif-fmt
+        run: cargo install clippy-sarif sarif-fmt
+
+      # Run clippy and generate SARIF report
+      - name: 🔍 Run Clippy and generate SARIF
+        run: |
+          cargo clippy --all-targets --all-features --message-format=json |
+          clippy-sarif | tee results.sarif | sarif-fmt
+
+      # Upload SARIF file
+      - name: 📤 Upload SARIF file
+        uses: github/codeql-action/upload-sarif@v3
+        with:
+          sarif_file: results.sarif

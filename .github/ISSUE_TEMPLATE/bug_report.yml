@@ -1,0 +1,31 @@
+name: Bug report
+description: Report a bug to help us improve Rou3-rs
+labels: bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting a bug!
+
+        Before submitting, please search existing issues to avoid duplicates. If a similar issue exists, comment there instead of opening a new one.
+
+        To help us resolve the issue efficiently, please provide the necessary details below.
+
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Bug Description
+      description: Describe the issue you encountered.
+      placeholder: Provide a clear and concise description of the problem, including what you expected to happen and what actually occurred.
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Provide details about your setup.
+      placeholder: |
+        - Rou3 Version: [e.g., v0.1.1]
+    validations:
+      required: true
