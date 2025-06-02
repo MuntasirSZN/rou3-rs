@@ -138,3 +138,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgements
 
 - The design and API are heavily inspired by [h3js/rou3](https://github.com/h3js/rou3).
+
