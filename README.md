@@ -23,7 +23,7 @@
   - Trie structure with `AHashMap` for fast dynamic dispatch.
   - Dedicated `static_map` for instant lookups of purely static paths.
 - **Dynamic Modification:** Add and remove routes at runtime.
-- **`findAllRoutes`:** Retrieve all routes that match a given path, useful for middleware or complex dispatch logic.
+- **`find_all_routes`:** Retrieve all routes that match a given path, useful for middleware or complex dispatch logic.
 - **Thread-Safe:** Core router operations are thread-safe using `parking_lot::RwLock`.
 - **Clear Error Handling:** Provides a `RouterError` enum for robust error management.
 
@@ -41,7 +41,7 @@ rou3 = "0.1.0"
 Here's a quick overview of how to use `rou3-rs`:
 
 ```rust
-use rou3::{Router, add_route, find_route, findAllRoutes, MatchedRoute, RouterError};
+use rou3::{Router, add_route, find_route, find_all_routes, MatchedRoute, RouterError};
 use std::collections::HashMap; // For easily checking params
 
 fn main() -> Result<(), RouterError> {
@@ -104,7 +104,7 @@ fn main() -> Result<(), RouterError> {
     add_route(&router, "GET", "/config/:key", "Config Key Specific")?;
     add_route(&router, "GET", "/config/**:path", "Config Wildcard")?;
 
-    let all_matches = findAllRoutes(&router, "GET", "/config/timeout", true);
+    let all_matches = find_all_routes(&router, "GET", "/config/timeout", true);
     println!("Found {} matches for /config/timeout:", all_matches.len());
     for m in all_matches {
         println!("  - Data: {}, Params: {:?}", m.data, m.params);
