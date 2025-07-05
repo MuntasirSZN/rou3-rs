@@ -21,7 +21,7 @@ cargo-nextest = "0.9.99"
 # Wall clock time based benchmarking
 criterion = "0.6.0"
 # More sophisticated benchmarking
-iai-callgrind = "0.15.1"
+iai-callgrind = "0.15.2"
 # Tracing in tests etc.
 tracing = "0.1.41"
 tracing-subscriber = { version = "0.3.19", features = ["env-filter", "fmt"] }
