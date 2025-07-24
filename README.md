@@ -1,4 +1,4 @@
-# rou3-rs
+# `rou3-rs`
 
 **A flexible and fast HTTP router for Rust, inspired by [rou3-js](https://github.com/h3js/rou3).**
 
