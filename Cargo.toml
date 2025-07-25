@@ -19,7 +19,7 @@ thiserror = "2.0.12"
 # Test runner
 cargo-nextest = "0.9.101"
 # Wall clock time based benchmarking
-criterion = "0.6.0"
+criterion = "0.7.0"
 # More sophisticated benchmarking
 iai-callgrind = "0.16.0"
 # Tracing in tests etc.
