@@ -13,7 +13,7 @@ keywords = ["url", "router"]
 ahash = "0.8.12"
 indexmap = "2.10.0"
 parking_lot = "0.12.4"
-thiserror = "2.0.15"
+thiserror = "2.0.16"
 
 [dev-dependencies]
 # Test runner
