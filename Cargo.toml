@@ -2,6 +2,7 @@
 name = "rou3"
 version = "0.1.0"
 edition = "2024"
+rust-version = "1.85"
 authors = ["MuntasirSZN <muntasir.joypurhat@gmail.com>"]
 description = "🌳 Lightweight and fast rou(ter) for Rust"
 license = "MIT"
