@@ -16,6 +16,9 @@ macro_rules! routes {
     (brackets) => {{
         routes!(finish => "{p1}", "{p2}", "{p3}", "{p4}")
     }};
+    (wayfind) => {{
+        routes!(finish => "<p1>", "<p2>", "<p3>", "<p4>")
+    }};
     (regex) => {{
         routes!(finish => "(.*)", "(.*)", "(.*)", "(.*)")
     }};
@@ -184,7 +187,7 @@ fn compare_routers(c: &mut Criterion) {
 
     // --- wayfind ---
     let mut wayfind_router = wayfind::Router::new();
-    for route_pattern in routes!(brackets) {
+    for route_pattern in routes!(wayfind) {
         wayfind_router.insert(route_pattern, true).unwrap();
     }
     group.bench_function("wayfind", |b| {

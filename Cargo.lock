@@ -3804,10 +3804,11 @@ dependencies = [
 
 [[package]]
 name = "wayfind"
-version = "0.8.1"
+version = "0.9.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c36f9a76db537116dbb9b4dd684e0a32b5632b425ce4c02cc9a8fad1d5464d4a"
+checksum = "7110390d7542d05e766b6676d4aa4fab90ea00bbfff89ace3420ff72a9ef06ca"
 dependencies = [
+ "slab",
  "smallvec",
 ]
 
