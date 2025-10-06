@@ -13,7 +13,7 @@ keywords = ["url", "router"]
 [dependencies]
 ahash = "0.8.12"
 indexmap = "2.11.4"
-parking_lot = "0.12.4"
+parking_lot = "0.12.5"
 thiserror = "2.0.17"
 
 [dev-dependencies]
