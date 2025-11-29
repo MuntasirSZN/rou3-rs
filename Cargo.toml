@@ -24,7 +24,7 @@ criterion = "0.7.0"
 # More sophisticated benchmarking
 iai-callgrind = "0.16.1"
 # Tracing in tests etc.
-tracing = "0.1.41"
+tracing = "0.1.43"
 tracing-subscriber = { version = "0.3.20", features = ["env-filter", "fmt"] }
 
 # Router comparisons
