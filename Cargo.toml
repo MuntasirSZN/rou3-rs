@@ -30,7 +30,7 @@ tracing-subscriber = { version = "0.3.22", features = ["env-filter", "fmt"] }
 # Router comparisons
 actix-router = "0.5.3"
 gonzales = "0.0.3-beta"
-matchit = "0.9.0"
+matchit = "0.9.1"
 path-tree = "0.8.3"
 regex = "1.12.2"
 route-recognizer = "0.3.1"
