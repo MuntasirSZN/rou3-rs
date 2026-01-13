@@ -331,9 +331,9 @@ dependencies = [
 
 [[package]]
 name = "cargo-nextest"
-version = "0.9.120"
+version = "0.9.121"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "24d25a5ad9ea917fc5e2842e8d9151276e24128c1b08ff72cd8496b6de9660f6"
+checksum = "aea602810eb6d72e53ba3b7d1c2cba166448a80fcb63fdb4d92cc6df1bd4dcbb"
 dependencies = [
  "camino",
  "cfg-if",
@@ -556,7 +556,7 @@ dependencies = [
  "ron",
  "serde_core",
  "serde_json",
- "toml 0.9.10+spec-1.1.0",
+ "toml 0.9.11+spec-1.1.0",
  "winnow",
 ]
 
@@ -1782,9 +1782,9 @@ checksum = "bbd2bcb4c963f2ddae06a2efc7e9f3591312473c50c6685e1f298068316e66fe"
 
 [[package]]
 name = "libc"
-version = "0.2.179"
+version = "0.2.180"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c5a2d376baa530d1238d133232d15e239abad80d05838b4b59354e5268af431f"
+checksum = "bcc35a38544a891a5f7c865aca548a982ccb3b8650a5b06d0fd33a10283c56fc"
 
 [[package]]
 name = "libredox"
@@ -2043,9 +2043,9 @@ dependencies = [
 
 [[package]]
 name = "nextest-runner"
-version = "0.101.0"
+version = "0.102.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b00771fd9651658d9f0190d98edf568c471868122e9d0a1d24f330195df9c86c"
+checksum = "d0d75cf73acff2a5da0fc0aef74d937f713247947a6254d50357656a80543c13"
 dependencies = [
  "aho-corasick",
  "async-scoped",
@@ -2111,7 +2111,7 @@ dependencies = [
  "thiserror 2.0.17",
  "tokio",
  "tokio-stream",
- "toml 0.9.10+spec-1.1.0",
+ "toml 0.9.11+spec-1.1.0",
  "toml_edit 0.24.0+spec-1.1.0",
  "tracing",
  "unicode-ident",
@@ -3852,9 +3852,9 @@ dependencies = [
 
 [[package]]
 name = "toml"
-version = "0.9.10+spec-1.1.0"
+version = "0.9.11+spec-1.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0825052159284a1a8b4d6c0c86cbc801f2da5afd2b225fa548c72f2e74002f48"
+checksum = "f3afc9a848309fe1aaffaed6e1546a7a14de1f935dc9d89d32afd9a44bab7c46"
 dependencies = [
  "indexmap",
  "serde_core",
