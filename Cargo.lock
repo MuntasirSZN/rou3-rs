@@ -331,9 +331,9 @@ dependencies = [
 
 [[package]]
 name = "cargo-nextest"
-version = "0.9.121"
+version = "0.9.122"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "aea602810eb6d72e53ba3b7d1c2cba166448a80fcb63fdb4d92cc6df1bd4dcbb"
+checksum = "90026dfd21373b472724b7de9838527e7ffae28ec4167bd00db20359a5fb36c1"
 dependencies = [
  "camino",
  "cfg-if",
@@ -2043,9 +2043,9 @@ dependencies = [
 
 [[package]]
 name = "nextest-runner"
-version = "0.102.0"
+version = "0.103.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d0d75cf73acff2a5da0fc0aef74d937f713247947a6254d50357656a80543c13"
+checksum = "adb014b7cc82a42d04ae3614331b165f0889f4d53f0c6d7c684da20adcef40b2"
 dependencies = [
  "aho-corasick",
  "async-scoped",
