@@ -18,7 +18,7 @@ thiserror = "2.0.18"
 
 [dev-dependencies]
 # Test runner
-cargo-nextest = "0.9.122"
+cargo-nextest = "0.9.123"
 # Wall clock time based benchmarking
 criterion = "0.7.0"
 # More sophisticated benchmarking
