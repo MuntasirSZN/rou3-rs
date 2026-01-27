@@ -49,4 +49,4 @@ jobs:
         run: cargo install cargo-nextest --locked
 
       - name: 🧪 Run Tests
-        run: cargo nextest run --target ${{ matrix.target }}
+        run: cargo nextest run --target ${{ matrix.target }} --locked
