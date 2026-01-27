@@ -17,8 +17,6 @@ parking_lot = "0.12.5"
 thiserror = "2.0.18"
 
 [dev-dependencies]
-# Test runner
-cargo-nextest = "0.9.122"
 # Wall clock time based benchmarking
 criterion = "0.7.0"
 # More sophisticated benchmarking
