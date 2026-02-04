@@ -1,4 +1,11 @@
 <a name="unreleased"></a>
+## [0.1.1](https://github.com/MuntasirSZN/rou3-rs/compare/v0.1.0...v0.1.1) (2026-02-04)
+
+
+### Bug Fixes
+
+* remove nextest ([df5c373](https://github.com/MuntasirSZN/rou3-rs/commit/df5c373b8cddf2b426c9c8dfe67e6de76b37cec7))
+
 ## [Unreleased]
 
 
