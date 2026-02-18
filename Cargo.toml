@@ -26,7 +26,7 @@ tracing = "0.1.44"
 tracing-subscriber = { version = "0.3.22", features = ["env-filter", "fmt"] }
 
 # Router comparisons
-actix-router = "0.5.3"
+actix-router = "0.5.4"
 gonzales = "0.0.3-beta"
 matchit = "0.9.1"
 path-tree = "0.8.3"
