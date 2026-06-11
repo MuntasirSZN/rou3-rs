@@ -424,9 +424,9 @@ checksum = "8863b587001c1b9a8a4e36008cebc6b3612cb1226fe2de94858e06092687b608"
 
 [[package]]
 name = "memchr"
-version = "2.7.6"
+version = "2.8.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f52b00d39961fc5b2736ea853c9cc86238e165017a493d1d5c8eac6bdc4cc273"
+checksum = "6b947ae49db0d222b1dbc6b113ce7248a3fc3a6ca21b696717bfc000ba4484d8"
 
 [[package]]
 name = "nu-ansi-term"
@@ -988,12 +988,11 @@ dependencies = [
 
 [[package]]
 name = "wayfind"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "625c6eedb7bef8c088197c8636b35848dbe9d447cfdd5b98135018351fdf9d80"
+checksum = "aa13ae98195043b534ac4e97f77be23b40864262eb3a30d877acfcf4591c805d"
 dependencies = [
  "memchr",
- "smallvec",
 ]
 
 [[package]]
