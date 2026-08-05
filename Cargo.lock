@@ -999,9 +999,9 @@ dependencies = [
 
 [[package]]
 name = "wayfind"
-version = "1.0.3"
+version = "1.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ac14c2622c594a1ed5575082bba8a7616083db08c7b91812206e54395582baba"
+checksum = "3f9cc39d5d719b448af481b4c69d8ff2582affa9887172cf30a22fad019aa764"
 dependencies = [
  "memchr",
 ]
