@@ -686,9 +686,9 @@ checksum = "afab94fb28594581f62d981211a9a4d53cc8130bbcbbb89a0440d9b8e81a7746"
 
 [[package]]
 name = "routefinder"
-version = "0.6.0"
+version = "0.6.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0443a9aae31a93eeff15c45bb9a81f384520a9c73fb35996b4e276e0b8fa143e"
+checksum = "fe6fbf8ca14f58cee7a718f58ce9ded435a2d0cef651b1d67379f19f12b0f0f2"
 dependencies = [
  "compact_str",
 ]
